@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "$@"
+echo "Docker commands: $@"
+echo "Environment Variables: $(printenv)"

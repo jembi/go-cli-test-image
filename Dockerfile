@@ -1,5 +1,5 @@
-FROM ubuntu:20.04
+FROM bash:4.1.17
 
 COPY ./file.sh /
 
-ENTRYPOINT ["/file.sh"]
+ENTRYPOINT ["bash", "file.sh"]
